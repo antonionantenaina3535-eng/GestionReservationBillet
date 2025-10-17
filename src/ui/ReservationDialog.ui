@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ReservationDialog</class>
+ <widget class="QDialog" name="ReservationDialog">
+  <property name="windowTitle"><string>Réservation</string></property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item><widget class="QComboBox" name="comboClient"/></item>
+   <item><widget class="QComboBox" name="comboVol"/></item>
+   <item>
+    <widget class="QDateEdit" name="dateReservation">
+     <property name="calendarPopup"><bool>true</bool></property>
+     <property name="date"><date>2025-01-01</date></property>
+    </widget>
+   </item>
+   <item><widget class="QComboBox" name="comboStatut"/></item>
+   <item>
+    <layout class="QHBoxLayout" name="buttonBox">
+     <item><widget class="QPushButton" name="btnCancel"><property name="text"><string>Annuler</string></property></widget></item>
+     <item><widget class="QPushButton" name="btnSave"><property name="text"><string>Enregistrer</string></property></widget></item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
